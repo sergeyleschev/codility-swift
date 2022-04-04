@@ -25,7 +25,7 @@ import Glibc
 // X, Y and D are integers within the range [1..1,000,000,000];
 // X ≤ Y.
 
-public func solution(_ X : Int, _ Y : Int, _ D : Int) -> Int {
+public func solution(_ X: Int, _ Y: Int, _ D: Int) -> Int {
     let jumps = Double(Y - X) / Double(D)
     return Int(ceil(jumps))
 }
