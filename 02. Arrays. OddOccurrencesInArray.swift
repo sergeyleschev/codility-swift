@@ -31,7 +31,7 @@ import Glibc
 // each element of array A is an integer within the range [1..1,000,000,000];
 // all but one of the values in A occur an even number of times.
 
-public func solution(_ A : inout [Int]) -> Int {
+public func solution(_ A: inout [Int]) -> Int {
     let count = A.count
     guard count > 0 else { return 0 }
     if count == 1 { return A[0] }
