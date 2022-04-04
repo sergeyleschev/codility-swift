@@ -25,7 +25,7 @@ import Glibc
 // the elements of A are all distinct;
 // each element of array A is an integer within the range [1..(N + 1)].
 
-public func solution(_ A : inout [Int]) -> Int {
+public func solution(_ A: inout [Int]) -> Int {
     let count = A.count
     if count == 0 { return 1 }
         
