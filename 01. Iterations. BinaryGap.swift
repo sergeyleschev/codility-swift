@@ -17,7 +17,7 @@ import Glibc
 // Write an efficient algorithm for the following assumptions:
 // N is an integer within the range [1..2,147,483,647].
 
-public func solution(_ N : Int) -> Int {
+public func solution(_ N: Int) -> Int {
     let str = String(N, radix: 2)    
     var maxLength = 0
     var length = 0
