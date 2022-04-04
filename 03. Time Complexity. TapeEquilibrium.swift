@@ -39,7 +39,7 @@ import Glibc
 // N is an integer within the range [2..100,000];
 // each element of array A is an integer within the range [−1,000..1,000].
 
-public func solution(_ A : inout [Int]) -> Int {
+public func solution(_ A: inout [Int]) -> Int {
     var minDif = Int.max
     var leftSum = A.first!
     var rightSum = A.reduce(0, +) - leftSum
