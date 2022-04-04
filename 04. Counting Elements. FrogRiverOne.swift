@@ -42,7 +42,7 @@ import Glibc
 // N and X are integers within the range [1..100,000];
 // each element of array A is an integer within the range [1..X].
 
-public func solution(_ X : Int, _ A : inout [Int]) -> Int {
+public func solution(_ X: Int, _ A: inout [Int]) -> Int {
     let count = A.count
     if X > count { return -1 }    
     var set = Set<Int>()
