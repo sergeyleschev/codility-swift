@@ -16,7 +16,7 @@ import Glibc
 // K is an integer within the range [1..2,000,000,000];
 // A ≤ B.
 
-public func solution(_ A : Int, _ B : Int, _ K : Int) -> Int {
+public func solution(_ A: Int, _ B: Int, _ K: Int) -> Int {
     if B == 0 { return 1 }
     let aDivisors = Int(A / K)
     let bDivisors = Int(B / K)
