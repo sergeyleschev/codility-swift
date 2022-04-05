@@ -20,6 +20,6 @@ import Glibc
 // P and C are integers within the range [1..30,000].
 // In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
 
-public func solution(_ P : Int, _ C : Int) -> Int {
+public func solution(_ P: Int, _ C: Int) -> Int {
     return P > C * 2 ? C : P / 2
 }
