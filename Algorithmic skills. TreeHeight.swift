@@ -34,16 +34,17 @@ import Glibc
 // N is an integer within the range [1..1,000];
 // the height of tree T (number of edges on the longest path from root to leaf) is within the range [0..500].
 
-    public func solution(_ T : Tree?) -> Int {
-        guard let tree = T else { return -1 }
+public func solution(_ T: Tree?) -> Int {
+    guard let tree = T else { return -1 }
         
-        func height(branch: Tree?, h: Int) -> Int {
-            guard let branch = branch else { return h }
-            return max(height(branch: branch.l, h: h + 1), height(branch: branch.r, h: h + 1))
-        }
-        
-        return height(branch: tree, h: -1)
+    
+    func height(branch: Tree?, h: Int) -> Int {
+        guard let branch = branch else { return h }
+        return max(height(branch: branch.l, h: h + 1), height(branch: branch.r, h: h + 1))
     }
+    
+    return height(branch: tree, h: -1)
+}
     
 /*
 public class Tree {
