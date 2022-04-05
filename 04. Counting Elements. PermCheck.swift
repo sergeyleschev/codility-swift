@@ -42,7 +42,7 @@ import Glibc
 // N is an integer within the range [1..100,000];
 // each element of array A is an integer within the range [1..1,000,000,000].
 
-public func solution(_ A : inout [Int]) -> Int {
+public func solution(_ A: inout [Int]) -> Int {
     var sum = 0
     var set = Set<Int>()
     
