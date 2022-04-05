@@ -21,7 +21,7 @@ import Glibc
 // each element of arrays X and Y is an integer within the range [0..N-1];
 // given N points are pairwise distinct.
 
-public func solution(_ X : inout [Int], _ Y : inout [Int]) -> Int {
+public func solution(_ X: inout [Int], _ Y: inout [Int]) -> Int {
     typealias XPosition = Int
     typealias YPosition = Int
     var verticalCache = [YPosition: Set<XPosition>]()
