@@ -22,7 +22,7 @@ import Glibc
 // string E describes a time before L on the same day.
 // In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
 
-public func solution(_ E : inout String, _ L : inout String) -> Int {
+public func solution(_ E: inout String, _ L: inout String) -> Int {
     var cost = 2 + 3    
     var duration = timestamp(L) - timestamp(E)
 
