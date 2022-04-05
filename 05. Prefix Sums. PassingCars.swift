@@ -38,7 +38,7 @@ import Glibc
 // N is an integer within the range [1..100,000];
 // each element of array A is an integer that can have one of the following values: 0, 1.
 
-public func solution(_ A : inout [Int]) -> Int {
+public func solution(_ A: inout [Int]) -> Int {
     let count = A.count
     if count == 1 { return 0 }
     var pairs = 0
