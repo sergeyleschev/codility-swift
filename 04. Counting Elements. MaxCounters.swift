@@ -51,7 +51,7 @@ import Glibc
 // N and M are integers within the range [1..100,000];
 // each element of array A is an integer within the range [1..N + 1].
 
-public func solution(_ N : Int, _ A : inout [Int]) -> [Int] {
+public func solution(_ N: Int, _ A: inout [Int]) -> [Int] {
     var result = Array<Int>.init(repeating: 0, count: N)
     var repeatedMaxValue = 0
     var maxValue = 0
