@@ -24,7 +24,7 @@ import Glibc
 // C and D are not empty and each of them contains at most 50 elements.
 // In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
 
-public func solution(_ K : Int, _ C : inout [Int], _ D : inout [Int]) -> Int {
+public func solution(_ K: Int, _ C: inout [Int], _ D: inout [Int]) -> Int {
     var washingMachineCapacity = K
     var pairs = 0    
     var unpairedCleanSocks = Set<Int>()
