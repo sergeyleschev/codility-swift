@@ -29,7 +29,7 @@ import Glibc
 // X is an integer within the range [1..1,000,000,000];
 // each element of array A is an integer within the range [1..1,000,000,000].
 
-public func solution(_ A : inout [Int], _ X : Int) -> Int {
+public func solution(_ A: inout [Int], _ X: Int) -> Int {
     var pieces = [Int: Int]()
     for i in 0..<A.count {
         let pieceLength = A[i]
