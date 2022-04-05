@@ -36,7 +36,7 @@ import Glibc
 // N is an integer within the range [1..100,000];
 // each element of array A is an integer within the range [1..100,000,000].
 
-public func solution(_ A : inout [Int]) -> Int {
+public func solution(_ A: inout [Int]) -> Int {
     let count = A.count
     if count <= 2 { return 0 }    
     var depth = 0 
