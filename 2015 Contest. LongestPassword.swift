@@ -24,7 +24,7 @@ import Glibc
 // string S consists only of printable ASCII characters and spaces.
 // In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
 
-public func solution(_ S : inout String) -> Int {
+public func solution(_ S: inout String) -> Int {
     let passwords = S.components(separatedBy: " ").sorted { (l, r) -> Bool in l.count > r.count }    
     let letters = CharacterSet.letters
     let digits = CharacterSet.decimalDigits
