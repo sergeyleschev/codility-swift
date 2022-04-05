@@ -36,7 +36,7 @@ import Glibc
 // P[K] ≤ Q[K], where 0 ≤ K < M;
 // string S consists only of upper-case English letters A, C, G, T.
 
-public func solution(_ S : inout String, _ P : inout [Int], _ Q : inout [Int]) -> [Int] {
+public func solution(_ S: inout String, _ P: inout [Int], _ Q: inout [Int]) -> [Int] {
     var result = [Int]()
 
     var prefixSumA = S.map({ () -> (Character) -> Int in
