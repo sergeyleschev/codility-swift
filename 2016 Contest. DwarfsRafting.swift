@@ -31,7 +31,7 @@ import Glibc
 // no seat number can appear in both S and T simultaneously.
 // In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
 
-public func solution(_ N : Int, _ S : inout String, _ T : inout String) -> Int {
+public func solution(_ N: Int, _ S: inout String, _ T: inout String) -> Int {
     let raft = Raft(size: N, barrels: S, occupiedSeats: T)
     return raft.numberOfDwarfsThatCanFit()
 }
