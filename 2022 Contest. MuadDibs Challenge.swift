@@ -45,7 +45,7 @@ import Glibc
 
 // https://app.codility.com/cert/view/cert5YT6JA-Y9ZKFEFXEZWGTR3G/details/
 
-public func solution(_ A : inout [Int]) -> Int {
+public func solution(_ A: inout [Int]) -> Int {
     return mincostTickets(A, [2, 7, 25])
 }
 
