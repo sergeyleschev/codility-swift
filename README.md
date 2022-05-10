@@ -18,7 +18,3 @@
 **Contest**: Algorithms, Data Structures.
 
 **Languages**: Swift.
-
----
-
-<a href="https://www.codewars.com/users/sergeyleschev"><img alt="Codewars" src="https://www.codewars.com/users/sergeyleschev/badges/small" /></a>
